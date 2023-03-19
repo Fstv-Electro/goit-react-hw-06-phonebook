@@ -20,7 +20,7 @@ export default function ContactList() {
                 ))
             ) : (
                     <div style={{color: 'red',fontSize: '20px'}}>
-                        There are no contacts yet!
+                        no match found
                     </div>
             )}
         </Contacts>
