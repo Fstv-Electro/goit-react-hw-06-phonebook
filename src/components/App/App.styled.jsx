@@ -9,7 +9,7 @@ export const Container = styled.div`
     border-radius: 16px;
 `;
 
-export const AppTitle = styled.h1`
+export const Title = styled.h1`
     font-weight: bold;    
     font-size: 24px;
 `;

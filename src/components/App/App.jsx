@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import { Container, AppTitle } from './App.styled';
+import { Container, Title } from './App.styled';
 import ContactForm from 'components/ContactForm/ContactForm';
 import ContactList from 'components/Contacts/ContactList';
 import Filter from 'components/Filter';
@@ -17,7 +17,7 @@ export default function App({title}) {
 
   return (
     <Container>
-      <AppTitle>{title}</AppTitle>
+      <Title>{title}</Title>
       <Section>
         <ContactForm/>
       </Section>
